@@ -1,7 +1,7 @@
 .mainContainer
 {
     width: 35rem;
-    height: 23rem;
+    height: 20rem;
     background-color: hsl(217, 19%, 24%);
     border-radius: 1.2rem;
     -webkit-box-shadow: 17px 24px 47px 0px rgba(0,0,0,0.41);
@@ -35,6 +35,8 @@
 
 .divider{
     margin-top: 2rem;
+   
+    
 }
 
 .btn
@@ -54,3 +56,84 @@
 .btn:hover{
     box-shadow: -1px 1px 96px -5px rgba(95,255,0,1);
 }
+
+
+@media only screen and (max-width:653px)
+{
+    .mainContainer{
+        width: 27rem;
+        padding: 1.5rem;
+    }
+    .advice
+            {
+                font-size: 1.2rem;
+                margin-top: 2rem;
+                color: hsl(193, 38%, 86%);
+                line-height: 2.3rem;
+            }
+}
+@media only screen and (max-width:558px)
+{
+    .mainContainer{
+        width: 22rem;
+        padding: 1.5rem;
+    }
+    .advice
+            {
+                padding: 0 0.5rem;
+                font-size: 1.2rem;
+                margin-top: 2rem;
+                color: hsl(193, 38%, 86%);
+                line-height: 2.3rem;
+            }
+    .divider{
+        width: 22rem;
+    }
+}
+
+@media only screen and (max-width:475px)
+{
+    .mainContainer{
+        width: 18rem;
+        padding: 1.5rem;
+    }
+    .advice
+            {
+               
+                font-size: 1.2rem;
+                margin-top: 2rem;
+                color: hsl(193, 38%, 86%);
+                line-height: 2.3rem;
+            }
+    .divider{
+        width: 18rem;
+    }
+}
+
+@media only screen and (max-width:380px)
+    {
+        .mainContainer{
+            width: 16rem;
+            padding: .5rem;
+        }
+        .adviceContainer
+        {
+            width: 100%;
+            padding:2rem;
+        }
+        .advice
+            {
+                font-size: 1.2rem;
+                margin-top: 2rem;
+                color: hsl(193, 38%, 86%);
+                line-height: 2.3rem;
+            }
+        .divider
+            {
+            width: 100%;
+            }
+        .btn
+            {
+                font-size: 1rem;
+            }
+    }
